@@ -1,0 +1,73 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0e0e0;
+}
+ol, ul {
+	list-style: none;
+}
+
+.cause{
+    width: 100%;
+    max-width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+.vertical{
+    width: 250px;
+    height: auto;
+}
+.vertical li{
+    padding: 5px 8px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.vertical .nome{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    background-color: #03045e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 5px;
+    border: #023e8a solid 2px;
+    cursor: pointer;
+}
+
+.vertical .nome span{
+    text-align: center;
+    width: 80%;
+}
+.vertical .nome i{
+    text-align: center;
+    width: 20%;
+}
+
+.vertical ul li{
+    width: 100%;
+    max-width: 250px;
+    background-color: #fff;
+    border-bottom: #0077b6 solid 2px;
+}
+
+.vertical .hide{
+    display: none;
+    height: 0;
+}
